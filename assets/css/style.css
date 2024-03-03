@@ -1,11 +1,28 @@
+/* Header */ 
 header {
     background-color: orange;
 }
 
+/* Main content */
 main {
     background-color: #f5f5f5;
 }
 
+/* Footer*/
 footer {
-    background-color: rgb(0, 0, 0, .8);
+    background-color: black;
+}
+/* CSS code taken from Love Running project (#social-networks, #social-networks i) */
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #ffffff;
 }
