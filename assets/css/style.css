@@ -7,13 +7,13 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Playfair Display', sans-serif;
+    color: #3a3a3a;
 }
 
 /* General sytles */
 
-
-/* Push footer down to bottom of page */
 body {
+    /* Push footer down to bottom of page */
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -23,6 +23,14 @@ body {
 header {
     background-color: orange;
     color: rgb(59, 59, 59);
+    z-index: 100;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 100%;
+    padding: 10px 20px;
+    box-shadow: 0 1px 0 0 black;
 }
 
 /* Delete link properties */
@@ -32,15 +40,7 @@ header a {
 }
 
 /* Set location of burger icon */
-.nav-box-toggle {
-    position: absolute;
-    margin: 0rem 2rem;
-    right: 0;
-    font-size: 300%;
-}
-
-
-.nav-menu {
+#nav-menu {
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -48,7 +48,8 @@ header a {
     margin: 1rem;
 }
 
-.nav-menu>li {
+/* Hide list dots */
+#nav-menu>li {
     list-style-type: none;
 }
 
@@ -57,11 +58,49 @@ header a {
     border-bottom: 1px solid black;
 }
 
+/* Copied from Love Running and adjusted to new needs */
+/* Navbar styles with dropdown toggle */
+nav {
+    position: absolute;
+    background-color: orange;
+    /* Width for small screens */
+    width: 100%;
+    right: 0;
+    padding: 0 1rem;
+    display: none;
+    top: 63px;
+    box-shadow: 0 1px 0 0 black;
+}
+
+/* Nav toggle */
+#nav-box:checked~nav {
+    display: block;
+}
+/* End of copied text */
+
+#nav-box {
+    display: none;
+}
+
+/* Burger icon position */
+.nav-box-label {
+    position: absolute;
+    margin: 0rem 2rem;
+    right: 0;
+    top: 0;
+    font-size: 300%;
+}
+
+
+
+
+
 
 /* Main content */
 main {
     background-color: #f5f5f5;
     flex: 1 0 auto;
+    margin-top: 63px;
 }
 
 /* Footer*/
