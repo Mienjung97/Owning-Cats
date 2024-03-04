@@ -1,3 +1,18 @@
+/* asterisk wildcard selector */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* General sytles */
+
+/* Push footer down to bottom of page */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
 /* Header */ 
 header {
     background-color: orange;
@@ -6,6 +21,7 @@ header {
 /* Main content */
 main {
     background-color: #f5f5f5;
+    flex: 1 0 auto;
 }
 
 /* Footer*/
