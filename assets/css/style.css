@@ -19,7 +19,7 @@ body {
     min-height: 100vh;
 }
 
-/* Header */ 
+/* Header */
 header {
     background-color: orange;
     color: rgb(59, 59, 59);
@@ -76,6 +76,7 @@ nav {
 #nav-box:checked~nav {
     display: block;
 }
+
 /* End of copied text */
 
 #nav-box {
@@ -98,10 +99,23 @@ main {
     margin-top: 69px;
 }
 
+.hero-image {
+    /* Photo by Marko Blazevic: https://www.pexels.com/photo/cute-gray-kitten-standing-on-a-wooden-flooring-774731/ */
+    width: 100%;
+    height: 500px;
+    background: url("../images/pexels-marko-blazevic-774731.jpg") no-repeat center center/cover;
+    position: relative;
+}
+
+.hero-text {
+    
+}
+
 /* Footer*/
 footer {
     background-color: black;
 }
+
 /* CSS code taken from Love Running project (#social-networks, #social-networks i) */
 #social-networks {
     text-align: center;
@@ -116,3 +130,5 @@ footer {
     padding: 5%;
     color: #ffffff;
 }
+
+/* End of footer from Love Running */
