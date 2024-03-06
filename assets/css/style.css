@@ -7,7 +7,6 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Playfair Display', sans-serif;
-    color: #3a3a3a;
 }
 
 /* General sytles */
@@ -17,6 +16,10 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+}
+
+.hide-text {
+    display: none;
 }
 
 /* Header */
@@ -179,6 +182,15 @@ footer {
         height: 1200px;        
     }
     .hero-text >h2 {
-        margin-top: 500px;
+        margin-top: 550px;
+    }
+    .hide-text {
+        display: block;
+        text-align: center;
+    }
+    #arrow {
+        margin-top: 250px;
+        font-size: 400%;
+        color: orange;
     }
 }
