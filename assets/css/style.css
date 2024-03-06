@@ -131,6 +131,8 @@ main {
     background-color: rgba(59, 59, 59, 0.6);
 }
 
+
+
 /* Footer*/
 footer {
     background-color: black;
@@ -186,10 +188,11 @@ footer {
     }
     .hide-text {
         display: block;
-        text-align: center;
+        text-align: end;
+        padding: 10px;
     }
     #arrow {
-        margin-top: 250px;
+        margin-top: 200px;
         font-size: 400%;
         color: orange;
     }
