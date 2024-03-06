@@ -124,7 +124,7 @@ main {
 .hero-text>h3 {
     color: orange;
     font-weight: 600;
-    padding:5px;
+    padding: 5px;
     background-color: rgba(59, 59, 59, 0.6);
 }
 
@@ -149,3 +149,36 @@ footer {
 }
 
 /* End of footer from Love Running */
+
+/* Media query: tablets and larger (768px and more) */
+@media screen and (min-width: 768px) {
+    /* Hero image */
+    .hero-image {
+        height: 700px;        
+    }
+    .hero-text >h2 {
+        margin-top: 300px;
+    }
+}
+
+/* Media query: large devices (992px and more) */
+@media screen and (min-width: 992px) {
+    /* Hero image */
+    .hero-image {
+        height: 800px;        
+    }
+    .hero-text >h2 {
+        margin-top: 350px;
+    }
+}
+
+/* Media query: desktop (1200px and more) */
+@media screen and (min-width: 1200px) {
+    /* Hero image */
+    .hero-image {
+        height: 1200px;        
+    }
+    .hero-text >h2 {
+        margin-top: 500px;
+    }
+}
