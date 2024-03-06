@@ -107,8 +107,25 @@ main {
     position: relative;
 }
 
+/* Center the hero text */
 .hero-text {
-    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* Push hero text down */
+.hero-text>h2 {
+    margin-top: 210px;
+}
+
+/* Edit hero text properties and background color */
+.hero-text>h2,
+.hero-text>h3 {
+    color: orange;
+    font-weight: 600;
+    padding:5px;
+    background-color: rgba(59, 59, 59, 0.6);
 }
 
 /* Footer*/
