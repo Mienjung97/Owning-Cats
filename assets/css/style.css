@@ -122,6 +122,10 @@ main {
     margin-top: 210px;
 }
 
+.spacing {
+    margin: 3rem;
+}
+
 /* Edit hero text properties and background color */
 .hero-text>h2,
 .hero-text>h3 {
