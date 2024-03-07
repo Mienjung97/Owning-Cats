@@ -22,6 +22,11 @@ body {
     display: none;
 }
 
+li {
+    list-style-type: none;
+    padding: 5px;
+}
+
 /* Header */
 header {
     background-color: orange;
@@ -122,6 +127,7 @@ main {
     margin-top: 210px;
 }
 
+/* Spacing for inbetween sections */
 .spacing {
     margin: 3rem;
 }
@@ -133,6 +139,23 @@ main {
     font-weight: 600;
     padding: 5px;
     background-color: rgba(59, 59, 59, 0.6);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+    position: relative;
+    margin: auto;
+}    
+
+.container>h2 {
+    display: inherit;
+    text-align: center;
 }
 
 
@@ -168,6 +191,11 @@ footer {
     .hero-text >h2 {
         margin-top: 300px;
     }
+
+    /* Adjust container width */
+    .container {
+        width: 600px;
+    }
 }
 
 /* Media query: large devices (992px and more) */
@@ -187,6 +215,9 @@ footer {
     .hero-image {
         height: 1200px;        
     }
+    .hero-text {
+        font-size: 150%;
+    }
     .hero-text >h2 {
         margin-top: 550px;
     }
@@ -195,6 +226,7 @@ footer {
         text-align: end;
         padding: 10px;
     }
+    /* Show arrow to indicate scrolling */
     #arrow {
         margin-top: 200px;
         font-size: 400%;
