@@ -229,7 +229,7 @@ footer {
         justify-content: center;
         align-items: center;
         text-align: center;
-        padding: 0 20px;
+        padding: 20px;
         gap: 1rem;
         position: relative;
         margin: auto;
@@ -249,6 +249,28 @@ footer {
     }
     .hero-text >h2 {
         margin-top: 350px;
+    }
+    .container-pro-con {
+        display: flex;
+        flex-direction: row;
+        width: 900px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+        gap: 1rem;
+        position: relative;
+        margin: auto;
+    }
+    /* hard coding the size of pros and cons to make them alway the same */
+    #pros {
+        height: 280px;
+        width: 413px;
+        line-height: 31px;
+    }
+    #cons {
+        height: 280px;
+        width: 413px;
     }
 }
 
@@ -274,5 +296,25 @@ footer {
         margin-top: 200px;
         font-size: 400%;
         color: orange;
+    }
+    /* Pro and Con container */
+    .container-pro-con {
+        display: flex;
+        flex-direction: row;
+        width: 1200px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+        gap: 1rem;
+        position: relative;
+        margin: auto;
+    }
+    #pros {
+        flex: 1;
+    }
+    #cons {
+        flex: 1;
+        line-height: 31px;
     }
 }
