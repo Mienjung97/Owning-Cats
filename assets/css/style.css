@@ -7,6 +7,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Playfair Display', sans-serif;
+    font-weight: 500;
 }
 
 /* General sytles */
@@ -85,7 +86,6 @@ nav {
 #nav-box:checked~nav {
     display: block;
 }
-
 /* End of copied text */
 
 #nav-box {
@@ -106,6 +106,8 @@ main {
     background-color: #f5f5f5;
     flex: 1 0 auto;
     margin-top: 69px;
+    /* Background picture for rest of page */
+    background: url("../images/sincerely-media-hbOpyBjUBjc-unsplash.jpg") no-repeat center -150px/cover;
 }
 
 .hero-image {
@@ -178,11 +180,15 @@ main {
 }
 
 #pros {
-    background-color: green;
+    background-color: rgb(144, 238, 144, 0.5);
+    font-weight: 300%;
+    color: black;
 }
 
 #cons {
-    background-color: red;
+    background-color: rgb(255, 0, 0, 0.5);
+    font-weight: 300%;
+    color: black;
 }
 
 /* Footer*/
@@ -216,7 +222,10 @@ footer {
     .hero-text >h2 {
         margin-top: 300px;
     }
-
+    /* Adjust background picture */
+    main {
+        background: url("../images/sincerely-media-hbOpyBjUBjc-unsplash.jpg") no-repeat center 100px/cover;
+    }
     /* Adjust container width */
     .container {
         width: 600px;
@@ -250,6 +259,15 @@ footer {
     .hero-text >h2 {
         margin-top: 350px;
     }
+
+    main {
+        background: url("../images/sincerely-media-hbOpyBjUBjc-unsplash.jpg") no-repeat center 150px/cover;
+    }
+    /* Adjust container width */
+    .container {
+        width: 900px;
+    }
+    /* Pros and cons Container */
     .container-pro-con {
         display: flex;
         flex-direction: row;
@@ -275,6 +293,8 @@ footer {
 }
 
 /* Media query: desktop (1200px and more) */
+
+/* Between 1200px and 1250px the hero doesn't fill out the full screen, "pros and cons" are not evenly spaced between 1200px and 1300px */
 @media screen and (min-width: 1200px) {
     /* Hero image */
     .hero-image {
@@ -297,6 +317,16 @@ footer {
         font-size: 400%;
         color: orange;
     }
+    /* Adjust background picture */
+    main {
+        /* optimized for FHD monitors */
+        background: url("../images/sincerely-media-hbOpyBjUBjc-unsplash.jpg") no-repeat center 300px/cover;
+    }
+    /* Adjust background picture */
+    /* Adjust container width */
+    .container {
+        width: 1000px;
+    }   
     /* Pro and Con container */
     .container-pro-con {
         display: flex;
