@@ -166,13 +166,22 @@ main {
 .container>h2 {
     display: inherit;
     text-align: center;
+    /* Add Border around headings */
+    padding: 5px;
+    border: 2px solid rgba(59, 59, 59, 0.7);
+    border-radius: 10px;
 }
 
-/* Extra container for pros and cons */
-#center {
+/* Edit h2 heading of pros and cons list - border is responsive and not fixed, like I would want it to be */
+#pro-h2 {
     display: inherit;
     text-align: center;
+    /* Add Border around headings */
+    padding: 5px;
+    border: 2px solid rgba(59, 59, 59, 0.7);
+    border-radius: 10px;
 }
+/* Extra container for pros and cons */
 .container-pro-con {
     display: flex;
     flex-direction: column;
@@ -185,14 +194,14 @@ main {
     margin: auto;
 }
 
+/* Colored boxes for arguments */
 #pros {
-    background-color: rgb(144, 238, 144, 0.5);
+    background-color: rgb(144, 238, 144, 0.65);
     font-weight: 300%;
     color: black;
 }
-
 #cons {
-    background-color: rgb(255, 0, 0, 0.5);
+    background-color: rgba(255, 0, 0, 0.26);
     font-weight: 300%;
     color: black;
 }
