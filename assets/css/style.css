@@ -306,14 +306,16 @@ footer {
     .hero-text >h2 {
         margin-top: 550px;
     }
+    /* On some devices (e.g. iPad air) arrows would be beneficial for horizontal alignment (1180px) */
+    /* Set scroll indicator (arrow) properties */
     .hide-text {
-        display: block;
-        text-align: end;
-        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        padding: 200px;
     }
     /* Show arrow to indicate scrolling */
     #arrow {
-        margin-top: 200px;
+        margin-top: -100px;
         font-size: 400%;
         color: orange;
     }
