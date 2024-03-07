@@ -19,8 +19,14 @@ body {
     min-height: 100vh;
 }
 
+/* Hide scroll arrow for any display but large sizes */
 .hide-text {
     display: none;
+}
+
+/* Adjust bold font-size */
+b {
+    font-weight: 900;
 }
 
 /* Style list items */
