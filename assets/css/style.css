@@ -22,6 +22,7 @@ body {
     display: none;
 }
 
+/* Style list items */
 li {
     list-style-type: none;
     padding: 5px;
@@ -138,9 +139,10 @@ main {
     color: orange;
     font-weight: 600;
     padding: 5px;
-    background-color: rgba(59, 59, 59, 0.6);
+    background-color: rgba(59, 59, 59, 0.7);
 }
 
+/* Container styles for main content */
 .container {
     display: flex;
     flex-direction: column;
@@ -158,7 +160,30 @@ main {
     text-align: center;
 }
 
+/* Extra container for pros and cons */
+#center {
+    display: inherit;
+    text-align: center;
+}
+.container-pro-con {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+    position: relative;
+    margin: auto;
+}
 
+#pros {
+    background-color: green;
+}
+
+#cons {
+    background-color: red;
+}
 
 /* Footer*/
 footer {
@@ -195,6 +220,24 @@ footer {
     /* Adjust container width */
     .container {
         width: 600px;
+    }
+    /* Make the Pros and Cons section responsive */
+    .container-pro-con {
+        display: flex;
+        flex-direction: row;
+        width: 600px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 0 20px;
+        gap: 1rem;
+        position: relative;
+        margin: auto;
+    }
+    #pros {
+        /* Alan from the Tutor team helped me fix the heigh difference between pros and cons */
+        height: 306px;
+        line-height: 26px;
     }
 }
 
