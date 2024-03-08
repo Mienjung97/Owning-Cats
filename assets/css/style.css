@@ -205,7 +205,15 @@ main {
 }
 
 /* Attributes.html code */
-#attributes {
+.general{
+    display: flex;
+    flex-direction: column;
+}
+.attributes {
+    display: flex;
+    flex-direction: column;
+}
+.pic-size {
     display: flex;
     flex-direction: column;
 }
@@ -244,7 +252,29 @@ footer {
 
 /* End of footer from Love Running */
 
+/* Media query: landscape phones (576px and more) */
+@media screen and (min-width: 576px) {
+    /* make images same height */
+    .pic-size img {
+        flex-basis: 100%;
+        text-align: center;
+        height: 70vh;
+    }
+    /* set all three divs as rows for media query */
+    .attributes {
+        display: flex;
+        flex-direction: row;
+    }
+    .attributes2 {
+        display: flex;
+        flex-direction: row;
+    }
+    .attributes3 {
+        display: flex;
+        flex-direction: row;
+    }
 
+}    
 
 /* Media query: tablets and larger (768px and more) */
 @media screen and (min-width: 768px) {
