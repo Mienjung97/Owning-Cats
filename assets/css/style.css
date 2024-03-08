@@ -204,6 +204,24 @@ main {
     color: black;
 }
 
+/* Attributes.html code */
+#attributes {
+    display: flex;
+    flex-direction: column;
+}
+/* make image size fill display */
+.pic-size img {
+    width: 100%;
+}
+/* adding similar style borders for paragraphs as for the headers in index.html */
+.pic-size p {
+    text-align: center;
+    padding: 5px;
+    border: 2px solid rgba(59, 59, 59, 1);
+    border-radius: 10px;
+    margin: 10px;
+}
+
 /* Footer*/
 footer {
     background-color: black;
@@ -225,6 +243,8 @@ footer {
 }
 
 /* End of footer from Love Running */
+
+
 
 /* Media query: tablets and larger (768px and more) */
 @media screen and (min-width: 768px) {
