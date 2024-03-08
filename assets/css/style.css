@@ -197,12 +197,10 @@ main {
 /* Colored boxes for arguments */
 #pros {
     background-color: rgb(144, 238, 144, 0.65);
-    font-weight: 300%;
     color: black;
 }
 #cons {
     background-color: rgba(255, 0, 0, 0.26);
-    font-weight: 300%;
     color: black;
 }
 
@@ -329,7 +327,7 @@ footer {
         padding: 200px;
     }
     /* Show arrow to indicate scrolling */
-    #arrow {
+    .arrow {
         margin-top: -100px;
         font-size: 400%;
         color: orange;
