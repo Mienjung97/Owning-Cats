@@ -40,18 +40,19 @@
         </nav>
     </header>
 
-    <main>
+    <main id="background">
         <!-- Heading and info about survey -->
-        <h1>A survey about Cats</h1>
-        <p>In the following survey we are interested in your opinion about cats. <br>
-            With this survey you will automaticly sign up for our newsletter for cat lovers!</p>
-
+        <div id="form1">
+            <h1>A survey about Cats</h1>
+            <p>In the following survey we are interested in your opinion about cats. <br>
+                With this survey you will automaticly sign up for our newsletter for cat lovers!</p>
+        </div>
         <hr>
         <!-- Form -->
         <form method="post" action="https://formdump.codeinstitute.net">
             <!-- General infos about user -->
             <!-- First and last name -->
-            <div>
+            <div id="form2">
                 <label for="fname" name="firstname" required>First name</label>
                 <input type="text" id="fname">
                 <br>
@@ -64,7 +65,7 @@
             </div>
             <hr>
             <!-- Questions about ownership -->
-            <div>
+            <div id="form3">
                 <h3>Do you own cats?</h3>
                 <label for="yes1">Yes</label>
                 <input type="radio" id="yes1" name="yesorno" value="yes" checked>
@@ -72,7 +73,7 @@
                 <input type="radio" id="no1" name="yesorno" value="no">
             </div>
             <hr>
-            <div>
+            <div id="form4">
                 <h3>None cat owners: Do you plan to get a cat?
                     <br>
                     Cat owners: Do you want to get more cats?
@@ -86,8 +87,10 @@
             </div>
             <hr>
             <!-- Asking for favorite cat-->
-            <div>
-                <h3>Which is your favorite cat breed? (Multiple answers possible)</h3>
+            <div id="form5">
+                <h3>Which is your favorite cat breed?</h3>
+                <p>(Multiple answers possible)</p>
+                <br>
                 <label for="ses">European Shorthair</label>
                 <input type="radio" id="ses" checked>
                 <label for="black">Black</label>
@@ -109,7 +112,7 @@
             </div>
             <!-- Asking if website is helpful -->
             <hr>
-            <div>
+            <div id="form6">
                 <h3>Did you find our website helpful and interesting?</h3>
                 <label for="yes3">Yes</label>
                 <input type="radio" id="yes3" name="yesorno" value="yes" checked>
@@ -118,7 +121,7 @@
             </div>
             <!-- Feedback area -->
             <br>
-            <div>
+            <div id="form7">
                 <label for="feedback">If not, please tell us why!</label>
                 <br>
                 <textarea name="feedback" id="feedback" placeholder="Please tell us what we did wrong." cols="50"
@@ -126,8 +129,8 @@
             </div>
             <!-- Submit and reset buttons -->
             <hr>
-            <div>
-                <input type="submit" value="Send data and sign up for our newsletter">
+            <div id="form8">
+                <input type="submit" value="Sign up for our newsletter">
                 <input type="reset" value="Clear form">
             </div>
 

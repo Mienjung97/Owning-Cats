@@ -260,6 +260,69 @@ footer {
 
 /* End of footer from Love Running */
 
+/* Styles for the Survey */
+/* General styles */
+#background {
+    background-image: none;
+}
+/* Styling Heading element */
+#form1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+}
+#form1 h1 {
+    padding-bottom: 5px;
+}    
+/* General user info */
+#form2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+}
+/* Styling written text */
+#form3 h3,
+#form4 h3,
+#form6 h3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+}
+#form5 h3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-top: 15px;
+}
+#form5 p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 15px;
+}
+/* Styling for radio buttons */
+input {
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Padding for buttons */
+#form8 {
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
 /* Media query: landscape phones (576px and more) */
 @media screen and (min-width: 576px) {
     /* font size paragraphs from attributes */
