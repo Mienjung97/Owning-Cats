@@ -262,6 +262,7 @@ footer {
 
 /* Media query: landscape phones (576px and more) */
 @media screen and (min-width: 576px) {
+    /* font size paragraphs from attributes */
     .pic-size p {
         font-size: 130%;
     }
@@ -308,6 +309,7 @@ footer {
         flex-basis: 100%;
         text-align: center;       
     }
+    /* font size paragraphs from attributes */
     .pic-size p {
         font-size: 130%;
     }
@@ -340,7 +342,6 @@ footer {
     .hero-text >h2 {
         margin-top: 350px;
     }
-
     main {
         background: url("../images/sincerely-media-hbOpyBjUBjc-unsplash.jpg") no-repeat center 150px/cover;
     }
