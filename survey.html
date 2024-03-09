@@ -67,10 +67,15 @@
             <!-- Questions about ownership -->
             <div id="form3">
                 <h3>Do you own cats?</h3>
-                <label for="yes1">Yes</label>
-                <input type="radio" id="yes1" name="yesorno" value="yes" checked>
-                <label for="no1">No</label>
-                <input type="radio" id="no1" name="yesorno" value="no">
+                <div>
+                    <label for="yes1">Yes</label>
+                    <input type="radio" id="yes1" name="yesorno" value="yes" checked>
+                </div>
+                <!-- class "bottom" is used to introduce a bottom padding underneath the last radio button -->
+                <div class="bottom">
+                    <label for="no1">No</label>
+                    <input type="radio" id="no1" name="yesorno" value="no">
+                </div>
             </div>
             <hr>
             <div id="form4">
@@ -78,54 +83,83 @@
                     <br>
                     Cat owners: Do you want to get more cats?
                 </h3>
-                <label for="yes2">Yes</label>
-                <input type="radio" id="yes2" name="yesorno" value="yes" checked>
-                <label for="no2">No</label>
-                <input type="radio" id="no2" name="yesorno" value="no">
-                <label for="maybe">Maybe</label>
-                <input type="radio" id="maybe" name="yesorno" value="maybe">
+                <div>
+                    <label for="yes2">Yes</label>
+                    <input type="radio" id="yes2" name="yesorno" value="yes" checked>
+                </div>
+                <div>
+                    <label for="no2">No</label>
+                    <input type="radio" id="no2" name="yesorno" value="no">
+                </div>
+                <div class="bottom">
+                    <label for="maybe">Maybe</label>
+                    <input type="radio" id="maybe" name="yesorno" value="maybe">
+                </div>
             </div>
             <hr>
             <!-- Asking for favorite cat-->
             <div id="form5">
                 <h3>Which is your favorite cat breed?</h3>
-                <p>(Multiple answers possible)</p>
-                <br>
-                <label for="ses">European Shorthair</label>
-                <input type="radio" id="ses" checked>
-                <label for="black">Black</label>
-                <input type="radio" id="black">
-                <label for="siamese">Siamese</label>
-                <input type="radio" id="siamese">
-                <label for="brittish">Brittish Shorthair</label>
-                <input type="radio" id="brittish">
-                <label for="orange">Orange</label>
-                <input type="radio" id="orange">
-                <label for="sphynx">Sphynx</label>
-                <input type="radio" id="sphynx">
-                <label for="bengal">Bengal</label>
-                <input type="radio" id="bengal">
-                <label for="white">White</label>
-                <input type="radio" id="white">
-                <label for="mainecoon">Maine Coon</label>
-                <input type="radio" id="mainecoon">
+                <p>(Multiple answers are possible)</p>
+                <div>
+                    <label for="ses">European Shorthair</label>
+                    <input type="radio" id="ses" checked>
+                </div>
+                <div>
+                    <label for="black">Black</label>
+                    <input type="radio" id="black">
+                </div>
+                <div>
+                    <label for="siamese">Siamese</label>
+                    <input type="radio" id="siamese">
+                </div>
+                <div>
+                    <label for="brittish">Brittish Shorthair</label>
+                    <input type="radio" id="brittish">
+                </div>
+                <div>
+                    <label for="orange">Orange</label>
+                    <input type="radio" id="orange">
+                </div>
+                <div>
+                    <label for="sphynx">Sphynx</label>
+                    <input type="radio" id="sphynx">
+                </div>
+                <div>
+                    <label for="bengal">Bengal</label>
+                    <input type="radio" id="bengal">
+                </div>
+                <div>
+                    <label for="white">White</label>
+                    <input type="radio" id="white">
+                </div>
+                <div class="bottom">
+                    <label for="mainecoon">Maine Coon</label>
+                    <input type="radio" id="mainecoon">
+                </div>
             </div>
             <!-- Asking if website is helpful -->
             <hr>
             <div id="form6">
                 <h3>Did you find our website helpful and interesting?</h3>
-                <label for="yes3">Yes</label>
-                <input type="radio" id="yes3" name="yesorno" value="yes" checked>
-                <label for="no3">No</label>
-                <input type="radio" id="no3" name="yesorno" value="no">
+                <div>
+                    <label for="yes3">Yes</label>
+                    <input type="radio" id="yes3" name="yesorno" value="yes" checked>
+                </div>
+                <div class="bottom">
+                    <label for="no3">No</label>
+                    <input type="radio" id="no3" name="yesorno" value="no">
+                </div>
             </div>
             <!-- Feedback area -->
-            <br>
             <div id="form7">
-                <label for="feedback">If not, please tell us why!</label>
-                <br>
-                <textarea name="feedback" id="feedback" placeholder="Please tell us what we did wrong." cols="50"
-                    rows="5"></textarea>
+                <div class="bottom">
+                    <label for="feedback">If not, please tell us why!</label>
+                </div>
+                <div class="bottom">
+                    <textarea name="feedback" id="feedback" placeholder="Please tell us what we did wrong." cols="50"
+                        rows="5"></textarea>
+                </div>
             </div>
             <!-- Submit and reset buttons -->
             <hr>

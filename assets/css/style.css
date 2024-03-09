@@ -309,11 +309,41 @@ footer {
     padding-bottom: 15px;
 }
 /* Styling for radio buttons */
-
-
+#form3 div {
+    display: flex;
+    padding-bottom: 5px;
+    justify-content: center;
+    gap: 2rem;
+}
+#form4 div {
+    display: flex;
+    padding-bottom: 5px;
+    justify-content: center;
+    gap: 2rem;
+}
+#form5 div {
+    display: flex;
+    padding-bottom: 5px;
+    justify-content: center;
+    gap: 2rem;
+}
+#form6 div {
+    display: flex;
+    padding-bottom: 5px;
+    justify-content: center;
+    gap: 2rem;
+}
+#form7 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.bottom {
+    padding-bottom: 20px !important;
+}
 /* Padding for buttons */
 #form8 {
-    padding: 15px;
+    padding: 2rem;
     display: flex;
     justify-content: space-around;
 }
