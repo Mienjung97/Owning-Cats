@@ -471,18 +471,22 @@ footer {
         padding-bottom: 5px;
         gap: 2rem;
     }
-    .left {
+    /* Code isnt responsive - problem or too much of a hassle? */
+    /*.left {
         float: left;
         padding-left: 2rem;
     }
     .middle {
         display: flex;
-        justify-content: center;
+        position: relative;
+        justify-content: center !important;
     }
     .right {
+        position: relative;
+        margin-top: -30px;
         float: right;
         padding-right: 2rem;
-    }
+    }*/
 }
 
 /* Media query: desktop (1200px and more) */
