@@ -330,6 +330,7 @@ footer {
     .attributes3 {
         display: flex;
         flex-direction: row;
+        margin-bottom: 30px;
     }
 }
 
