@@ -309,11 +309,7 @@ footer {
     padding-bottom: 15px;
 }
 /* Styling for radio buttons */
-input {
-    padding-bottom: 15px;
-    display: flex;
-    justify-content: space-around;
-}
+
 
 /* Padding for buttons */
 #form8 {
