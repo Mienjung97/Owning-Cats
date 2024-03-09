@@ -26,7 +26,7 @@
         <a href="index.html">
             <h1 id="home">Owning Cats</h1>
         </a>
-        
+
         <!-- Input checkbox to create Burger drop down menu (inspiration from Love Running)-->
         <input type="checkbox" id="nav-box" name="nav-box">
         <label for="nav-box" class="nav-box-label"><i class="fa-solid fa-bars"></i></label>
@@ -50,14 +50,68 @@
         <!-- Form -->
         <form method="post" action="https://formdump.codeinstitute.net">
             <!-- General infos about user -->
+            <!-- First and last name -->
             <label for="fname" name="firstname">First name</label>
             <input type="text" id="fname">
             <br>
             <label for="lname" name="lastname">Last name</label>
             <input type="text" id="lname">
             <br>
+            <!-- Email address -->
             <label for="email" name="email">Email</label>
             <input type="email" id="email">
+            <hr>
+            <!-- Questions about ownership -->
+            <h3>Do you own cats?</h3>
+            <label for="yes1">Yes</label>
+            <input type="radio" id="yes1" name="yesorno" value="yes">
+            <label for="no1">No</label>
+            <input type="radio" id="no1" name="yesorno" value="no">
+            <hr>
+            <h3>None cat owners: Do you plan to get a cat?
+                <br>
+                Cat owners: Do you want to get more cats?
+            </h3>
+            <label for="yes2">Yes</label>
+            <input type="radio" id="yes2" name="yesorno" value="yes">
+            <label for="no2">No</label>
+            <input type="radio" id="no2" name="yesorno" value="no">
+            <label for="maybe">Maybe</label>
+            <input type="radio" id="maybe" name="yesorno" value="maybe">
+            <hr>
+            <!-- Asking for favorite cat-->
+            <label for="ses">European Shorthair</label>
+            <input type="radio" id="ses">
+            <label for="black">Black</label>
+            <input type="radio" id="black">
+            <label for="siamese">Siamese</label>
+            <input type="radio" id="siamese">
+            <label for="brittish">Brittish Shorthair</label>
+            <input type="radio" id="brittish">
+            <label for="orange">Orange</label>
+            <input type="radio" id="orange">
+            <label for="sphynx">Sphynx</label>
+            <input type="radio" id="sphynx">
+            <label for="bengal">Bengal</label>
+            <input type="radio" id="bengal">
+            <label for="white">White</label>
+            <input type="radio" id="white">
+            <label for="mainecoon">Maine Coon</label>
+            <input type="radio" id="mainecoon">
+            <!-- Asking if website is helpful -->
+            <hr>
+            <h3>Did you find our website helpful and interesting?</h3>
+            <label for="yes3">Yes</label>
+            <input type="radio" id="yes3" name="yesorno" value="yes">
+            <label for="no3">No</label>
+            <input type="radio" id="no3" name="yesorno" value="no">
+            <!-- Feedback area -->
+            <br>
+            <label for="feedback">If not, please tell us why!</label>
+            <br>
+            <textarea name="feedback" id="feedback" placeholder="Please tell us what we did wrong." cols="50"
+                rows="5"></textarea>
+            <!-- Submit and reset buttons -->
             <hr>
             <input type="submit" value="Send data and sign up for our newsletter">
             <input type="reset" value="Clear form">
