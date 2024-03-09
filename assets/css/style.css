@@ -213,6 +213,14 @@ main {
     display: flex;
     flex-direction: column;
 }
+.attributes2 {
+    display: flex;
+    flex-direction: column;
+}
+.attributes3 {
+    display: flex;
+    flex-direction: column;
+}
 .pic-size {
     display: flex;
     flex-direction: column;
@@ -254,8 +262,9 @@ footer {
 
 /* Media query: landscape phones (576px and more) */
 @media screen and (min-width: 576px) {
-    
-
+    .pic-size p {
+        font-size: 130%;
+    }
 }    
 
 /* Media query: tablets and larger (768px and more) */
@@ -295,6 +304,13 @@ footer {
     }
     /* Pictures from attributes side */
     /* make images same height */
+    .pic-size {
+        flex-basis: 100%;
+        text-align: center;       
+    }
+    .pic-size p {
+        font-size: 130%;
+    }
     .pic-size img {
         flex-basis: 100%;
         text-align: center;
@@ -413,5 +429,9 @@ footer {
     #cons {
         flex: 1;
         line-height: 31px;
+    }
+    /* font size paragraphs from attributes */
+    .pic-size p {
+        font-size: 230%;
     }
 }
