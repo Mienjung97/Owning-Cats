@@ -23,6 +23,10 @@ body {
 .hide-text {
     display: none;
 }
+/* Hide headings */
+.hide {
+    display: none;
+}
 
 /* Adjust bold font-size */
 b {
