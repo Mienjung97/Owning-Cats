@@ -324,30 +324,28 @@ footer {
     text-align: center;
     padding-bottom: 15px;
 }
-/* Styling for radio buttons */
-#form3 div {
-    display: flex;
-    padding-bottom: 5px;
-    justify-content: center;
-    gap: 2rem;
-}
-#form4 div {
-    display: flex;
-    padding-bottom: 5px;
-    justify-content: center;
-    gap: 2rem;
+/* Styling for radio buttons with grid */
+#form3 div,
+#form4 div,
+#form6 div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-bottom: 1rem;
 }
 #form5-1 div {
-    display: flex;
-    padding-bottom: 5px;
-    justify-content: center;
-    gap: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-bottom: 1rem;
 }
-#form6 div {
+#form3 label,
+#form4 label,
+#form6 label {
     display: flex;
-    padding-bottom: 5px;
     justify-content: center;
-    gap: 2rem;
 }
 #form7 {
     display: flex;
