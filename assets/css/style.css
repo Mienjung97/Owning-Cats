@@ -39,6 +39,15 @@ li {
     padding: 5px;
 }
 
+/* Placeholder */
+::placeholder {
+    text-align: center;
+}
+
+#form7 ::placeholder {
+    padding-top: 1rem;
+}
+
 /* Header */
 header {
     background-color: orange;
