@@ -287,8 +287,11 @@ footer {
     padding: 15px;
 }
 #form1 h1 {
-    padding-bottom: 5px;
-}    
+    padding-bottom: 1rem;
+}  
+#form p {
+    padding-bottom: 10px;
+}  
 /* General user info */
 #form2 {
     display: flex;
@@ -334,7 +337,7 @@ footer {
     justify-content: center;
     gap: 2rem;
 }
-#form5 div {
+#form5-1 div {
     display: flex;
     padding-bottom: 5px;
     justify-content: center;
