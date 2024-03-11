@@ -267,7 +267,7 @@ footer {
 
 /* Styles for the Survey */
 /* General styles */
-#background {
+.background {
     background-image: none;
 }
 /* Styling Heading element */
@@ -497,7 +497,6 @@ footer {
     /* Show arrow to indicate scrolling */
     .arrow {
         display: flex;
-
         justify-content: center;
         margin-top: -100px;
         font-size: 400%;
