@@ -167,7 +167,6 @@ main {
 .container {
     display: flex;
     flex-direction: column;
-    width: 300px;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -198,7 +197,6 @@ main {
 .container-pro-con {
     display: flex;
     flex-direction: column;
-    width: 300px;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -507,16 +505,11 @@ footer {
         /* optimized for FHD monitors */
         background: url("../images/sincerely-media-hbOpyBjUBjc-unsplash.jpg") no-repeat center 300px/cover;
     }
-    /* Adjust background picture */
-    /* Adjust container width */
-    .container {
-        width: 1000px;
-    }   
+
     /* Pro and Con container */
     .container-pro-con {
         display: flex;
         flex-direction: row;
-        width: 1200px;
         justify-content: center;
         align-items: center;
         text-align: center;
@@ -530,7 +523,6 @@ footer {
     }
     #cons {
         flex: 1;
-        line-height: 31px;
     }
     /* Attributes media query */
     .attributes {
