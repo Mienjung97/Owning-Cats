@@ -254,9 +254,11 @@ main {
 .attributes-head {
     text-align: center;
     padding: 5px;
-    border: 2px solid rgba(59, 59, 59, 1);
+    border: 2px solid black;
     border-radius: 10px;
-    margin: 10px;
+    margin: 2rem;
+    color: rgb(255, 179, 39);
+    background-color: rgba(59, 59, 59, 0.9);
 }
 
 .attributes {
@@ -308,6 +310,13 @@ footer {
 /* background class is used by attributes.html as well */
 .background {
     background-image: none;
+}
+
+/*#form-size {
+    padding-top: ;
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
 }
 
 /* Styling Heading element */
@@ -420,6 +429,7 @@ footer {
     .attributes {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: masonry;
         padding: 4%;
         gap: 2.5%;
     }
@@ -471,6 +481,7 @@ footer {
     .attributes {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: masonry;
         padding: 3%;
         gap: 2.5%;
     }
@@ -620,6 +631,7 @@ footer {
     .attributes {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: masonry;
         padding: 2.5%;
         gap: 2.5%;
     }
