@@ -420,7 +420,6 @@ footer {
     .attributes {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: masonry;
         padding: 4%;
     }
     #form1 h1 {
@@ -465,7 +464,6 @@ footer {
     .attributes {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: masonry;
         padding: 3%;
         /* column-gap makes sure that no text is swallowed by footer */
         column-gap: 2.5%;
@@ -586,7 +584,6 @@ footer {
     .attributes {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: masonry;
         padding: 2.5%;
     }
 }
