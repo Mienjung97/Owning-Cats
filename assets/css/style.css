@@ -430,6 +430,13 @@ footer {
         margin: auto;
     }
 }
+/* Miedia query for small displays */
+@media screen and (max-width: 768px) {
+    /* Responsive "pros and cons" section */
+    .container-pro-con {
+        flex-wrap: wrap;
+    }
+}
 
 /* Media query: tablets and larger (768px and more) */
 @media screen and (min-width: 768px) {
