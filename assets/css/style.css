@@ -446,38 +446,18 @@ footer {
         height: 700px;
     }
 
-    .hero-text>h2 {
-        margin-top: 300px;
-    }
-
     /* Adjust background picture */
     main {
         background: url("../images/sincerely-media-hbOpyBjUBjc-unsplash.jpg") no-repeat center 100px/cover;
     }
 
-    /* Adjust container width */
-    .container {
-        width: 600px;
-    }
-
-    /* Make the Pros and Cons section responsive */
-    .container-pro-con {
-        display: flex;
-        flex-direction: row;
-        width: 600px;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        padding: 20px;
-        gap: 1rem;
-        position: relative;
-        margin: auto;
-    }
-
+    /* make pros and cons same height */
     #pros {
         /* Alan from the Tutor team helped me fix the heigh difference between pros and cons */
-        height: 306px;
-        line-height: 26px;
+        height: 320px;
+    }
+    #cons {
+        height: 320px;
     }
 
     /* Pictures from attributes side */
