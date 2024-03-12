@@ -312,13 +312,6 @@ footer {
     background-image: none;
 }
 
-/*#form-size {
-    padding-top: ;
-    max-width: 50%;
-    display: flex;
-    justify-content: center;
-}
-
 /* Styling Heading element */
 #form1 {
     display: flex;
@@ -433,6 +426,9 @@ footer {
         padding: 4%;
         gap: 2.5%;
     }
+    #form1 h1 {
+        padding-top: 4rem;
+    }
     #form-size {
         max-width: 80%;
         display: inline-block;
@@ -492,6 +488,9 @@ footer {
     }
 
     /* Media query for survey.html */
+    #form1 h1 {
+        padding-bottom: 1rem;
+    }
     #form-size {
         max-width: 50%;
         display: inline-block;
