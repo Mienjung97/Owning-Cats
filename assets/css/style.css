@@ -408,7 +408,7 @@ footer {
     display: flex;
     justify-content: space-around;
     /* Wrap idea for responsiveness from mentor */
-    flex: wrap;
+    flex-wrap: wrap;
 }
 
 
