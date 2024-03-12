@@ -433,6 +433,11 @@ footer {
         padding: 4%;
         gap: 2.5%;
     }
+    #form-size {
+        max-width: 80%;
+        display: inline-block;
+        margin: auto;
+    }
 }
 
 /* Media query: tablets and larger (768px and more) */
@@ -487,9 +492,14 @@ footer {
     }
 
     /* Media query for survey.html */
+    #form-size {
+        max-width: 50%;
+        display: inline-block;
+        margin: auto;
+    }
     #form5-1 {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
         padding-left: 10%;
         padding-right: 10%;
         margin-bottom: 1rem;
@@ -547,7 +557,7 @@ footer {
     /* Media query for survey.html */
     #form5-1 {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         padding-left: 1rem;
         padding-right: 1rem;
         margin-bottom: 1rem;
