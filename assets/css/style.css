@@ -568,21 +568,9 @@ footer {
         height: 1200px;
     }
 
-    .hero-text {
-        font-size: 150%;
-    }
-
-    .hero-text>h2 {
-        margin-top: 550px;
-    }
-
     /* On some devices (e.g. iPad air) arrows would be beneficial for horizontal alignment (1180px) */
     /* Set scroll indicator (arrow) properties */
-    .hide-text {
-        display: flex;
-        justify-content: center;
-        padding: 200px;
-    }
+
 
     /* Deleted unused classes */
 
