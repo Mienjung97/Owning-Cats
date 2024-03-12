@@ -102,7 +102,6 @@ nav {
     box-shadow: 0 1px 0 0 black;
 }
 
-
 /* Nav toggle */
 #nav-box:checked~nav {
     display: block;
@@ -162,24 +161,23 @@ main {
     color: orange;
     font-weight: 600;
     padding: 5px;
-    padding: 5px;
     border-top: 2px solid black;
     border-right: 2px solid black;
     border-left: 2px solid black;
     border-radius: 10px;
-    background-color: rgba(59, 59, 59, 0.7);
+    background-color: rgba(59, 59, 59, 0.9);
 }
 
 .hero-text>h3 {
     color: orange;
     font-weight: 600;
     padding: 5px;
-    padding: 5px;
+    margin-top: -1px;
     border-bottom: 2px solid black;
     border-right: 2px solid black;
     border-left: 2px solid black;
     border-radius: 10px;
-    background-color: rgba(59, 59, 59, 0.7);
+    background-color: rgba(59, 59, 59, 0.9);
 }
 
 
@@ -198,7 +196,16 @@ main {
 .container>h2 {
     display: inherit;
     text-align: center;
-    color: orange;
+    color: rgb(255, 179, 39);
+    /* Add Border around headings */
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgba(59, 59, 59, 0.9);
+}
+
+.container>ul {
+    color: rgb(255, 179, 39);
     /* Add Border around headings */
     padding: 5px;
     border: 2px solid black;
@@ -211,12 +218,12 @@ main {
     display: flex;
     text-align: center;
     justify-content: center;
-    color: orange;
+    color: rgb(255, 179, 39);
     /* Add Border around headings */
     padding: 5px;
     border: 2px solid black;
     border-radius: 10px;
-    background-color: rgba(59, 59, 59, 0.7);
+    background-color: rgba(59, 59, 59, 0.9);
 }
 
 /* Extra container for pros and cons */
