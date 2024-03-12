@@ -21,7 +21,26 @@ body {
 
 /* Hide scroll arrow for any display but large sizes */
 .hide-text {
-    display: none;
+    /* Mentor Akshat helped me with understading .parent - .child relations for styling */
+    color: orange;
+    font-size: 1.5rem;
+    color: orange;
+    /* Add Border around headings */
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgba(59, 59, 59, 0.7);
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    /* Next line was shown to me by Akshat */
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+/* Make input fields have padding */
+input {
+    padding: 4px;
 }
 
 /* Hide headings */
@@ -144,82 +163,46 @@ main {
 }
 
 /* Center the hero text */
+/* Helped by Akshat to remove loose text */
 .hero-text {
-    display: flex;
-    flex-direction: column;
     text-align: center;
+    color: orange;
+    font-weight: 600;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgba(59, 59, 59, 0.9);
+    position: absolute;
+    top: 50%;
+    width: 100%;
 }
+/* Deleted unused lines of code */
 
-/* Push hero text down */
-.hero-text>h2 {
-    margin-top: 210px;
-}
-
-/* Spacing for inbetween sections */
+/* Spacing for sections */
 .spacing {
     margin: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-
-/* Edit hero text properties and background color */
-.hero-text>h2 {
-    color: orange;
-    font-weight: 600;
-    padding: 5px;
-    border-top: 2px solid black;
-    border-right: 2px solid black;
-    border-left: 2px solid black;
-    border-radius: 10px;
-    background-color: rgba(59, 59, 59, 0.9);
-}
-
-.hero-text>h3 {
-    color: orange;
-    font-weight: 600;
-    padding: 5px;
-    margin-top: -1px;
-    border-bottom: 2px solid black;
-    border-right: 2px solid black;
-    border-left: 2px solid black;
-    border-radius: 10px;
-    background-color: rgba(59, 59, 59, 0.9);
-}
-
 
 /* Container styles for main content */
 .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 0 20px;
-    position: relative;
-    margin: auto;
-}
-
-.container>h2 {
-    display: inherit;
     text-align: center;
     color: rgb(255, 179, 39);
-    /* Add Border around headings */
     padding: 5px;
     border: 2px solid black;
     border-radius: 10px;
     background-color: rgba(59, 59, 59, 0.9);
 }
 
-.container>ul {
-    color: rgb(255, 179, 39);
-    /* Add Border around headings */
-    padding: 5px;
-    border: 2px solid black;
-    border-radius: 10px;
-    background-color: rgba(59, 59, 59, 0.7);
-}
+/* Deleted unused code */
+
 .container>p {
     padding: 5px;
     border: 2px solid black;
     border-radius: 10px;
+    color: black;
     background-color:orange
 }
 
@@ -240,22 +223,21 @@ main {
 /* Extra container for pros and cons */
 .container-pro-con {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
     padding: 0 20px;
-    position: relative;
-    margin: auto;
 }
 
 /* Colored boxes for arguments */
 #pros {
+    margin: 10px;
     background-color: rgb(144, 238, 144, 0.65);
     color: black;
 }
 
 #cons {
+    margin: 10px;
     background-color: rgba(255, 0, 0, 0.26);
     color: black;
 }
