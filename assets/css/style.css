@@ -571,6 +571,14 @@ footer {
     .hero-image {
         height: 1200px;
     }
+    .hero-text {
+        top: 43%;
+    }
+
+    /* Adjust scroll indicator text */
+    .hide-text {
+        top: 65%;
+    }
 
     /* Deleted unused classes */
 
@@ -587,3 +595,21 @@ footer {
         padding: 2.5%;
     }
 }
+
+/*.hide-text {
+    /* Mentor Akshat helped me with understading .parent - .child relations for styling */
+    /* color: orange;
+    font-size: 1.5rem;
+    color: orange;
+    /* Add Border around headings */
+   /* padding: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgba(59, 59, 59, 0.7);
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    /* Next line was shown to me by my Mentor Akshat */
+   /* transform: translateX(-50%);
+    text-align: center; */
+
