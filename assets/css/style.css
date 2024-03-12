@@ -232,17 +232,18 @@ main {
     padding: 0 20px;
 }
 
-/* Colored boxes for arguments */
+/* Colored boxes for pros and cons, text styling */
 #pros {
     margin: 10px;
     background-color: rgb(144, 238, 144, 0.65);
     color: black;
+    text-align: center;
 }
-
 #cons {
     margin: 10px;
     background-color: rgba(255, 0, 0, 0.26);
     color: black;
+    text-align: center;
 }
 
 /* ---------------------------------------------------------------------------------------------------------------------------------------------------------------- */
@@ -485,6 +486,11 @@ footer {
         padding-right: 10%;
         margin-bottom: 1rem;
     }
+    /* new class for responsive pros and cons list */
+    .pro-con {
+        display: flex;
+        text-align: center;
+    }
 }
 
 /* Media query: large devices (992px and more) */
@@ -567,10 +573,6 @@ footer {
     .hero-image {
         height: 1200px;
     }
-
-    /* On some devices (e.g. iPad air) arrows would be beneficial for horizontal alignment (1180px) */
-    /* Set scroll indicator (arrow) properties */
-
 
     /* Deleted unused classes */
 
