@@ -205,6 +205,9 @@ main {
     color: black;
     background-color:orange
 }
+.pro-con-container {
+    width: 900px;
+}
 
 
 /* Edit h2 heading of pros and cons list - border is responsive and not fixed, like I would want it to be */
@@ -272,6 +275,7 @@ main {
     border: 2px solid rgba(59, 59, 59, 1);
     border-radius: 10px;
     margin: 10px;
+    background: white;
 }
 
 /* ------------------------------------------------------------------------------------------------------------------------------------------ */
