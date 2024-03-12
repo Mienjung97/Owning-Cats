@@ -312,9 +312,6 @@ footer {
 
 /* Styling Heading element */
 #form1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     text-align: center;
     padding: 15px;
 }
@@ -410,6 +407,8 @@ footer {
     padding: 2rem;
     display: flex;
     justify-content: space-around;
+    /* Wrap idea for responsiveness from mentor */
+    flex: wrap;
 }
 
 
@@ -422,14 +421,12 @@ footer {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: masonry;
         padding: 4%;
-        gap: 2.5%;
     }
     #form1 h1 {
         padding-top: 4rem;
     }
     #form-size {
         max-width: 80%;
-        display: inline-block;
         margin: auto;
     }
 }
