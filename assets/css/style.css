@@ -39,6 +39,10 @@ li {
     list-style-type: none;
     padding: 5px;
 }
+.background-color {
+    background-image: none;
+    background-color:  rgba(59, 59, 59, 0.3);
+}
 
 /* Placeholder */
 ::placeholder {
