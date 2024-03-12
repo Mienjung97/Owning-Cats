@@ -216,6 +216,13 @@ main {
     border-radius: 10px;
     background-color: rgba(59, 59, 59, 0.7);
 }
+.container>p {
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color:orange
+}
+
 
 /* Edit h2 heading of pros and cons list - border is responsive and not fixed, like I would want it to be */
 #pro-h2 {
@@ -511,6 +518,27 @@ footer {
 
 /* Media query: large devices (992px and more) */
 @media screen and (min-width: 992px) {
+    /* Header */
+    header {
+        padding: 10px 20px 5px 10px;
+    }
+    header > nav {
+        display: block;
+        position: relative;
+        width: fit-content;
+        padding-right: 5%;
+        top: 0;
+        box-shadow: none;
+    }
+    .nav-box-label {
+        display: none;
+    }
+    #nav-menu {
+        display: flex;
+        flex-direction: row;
+        padding-left: 2rem;
+        font-size: 150%;
+    }
 
     /* Hero image */
     .hero-image {
@@ -558,12 +586,23 @@ footer {
 
     /* styling favourite cat form for bigger screens */
     /* Media query for survey.html */
+    #form1 h1 {
+        padding-top: 100px;
+        padding-bottom: 2rem;
+    }
     #form5-1 {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         padding-left: 1rem;
         padding-right: 1rem;
         margin-bottom: 1rem;
+    }
+
+    /* Footer */
+    /* Move icons closer together */
+    #social-networks {
+        padding-left: 25%;
+        padding-right: 25%;
     }
 }
 
