@@ -19,7 +19,7 @@ body {
     min-height: 100vh;
 }
 
-/* Hide scroll arrow for any display but large sizes */
+/* Scroll indicator for any display but small sizes */
 .hide-text {
     /* Mentor Akshat helped me with understading .parent - .child relations for styling */
     color: orange;
@@ -163,7 +163,7 @@ main {
 }
 
 /* Center the hero text */
-/* Helped by Akshat to remove loose text */
+/* Helped by Mentor Akshat to remove loose text */
 .hero-text {
     text-align: center;
     color: orange;
@@ -173,7 +173,7 @@ main {
     border-radius: 10px;
     background-color: rgba(59, 59, 59, 0.9);
     position: absolute;
-    top: 50%;
+    top: 42%;
     width: 100%;
 }
 /* Deleted unused lines of code */
@@ -436,6 +436,10 @@ footer {
     .container-pro-con {
         flex-wrap: wrap;
     }
+    /* turn off scroll indicator on smaller screens */
+    .hide-text {
+        display: none;
+    }
 }
 
 /* Media query: tablets and larger (768px and more) */
@@ -444,6 +448,14 @@ footer {
     /* Hero image */
     .hero-image {
         height: 700px;
+    }
+    .hero-text {
+        top: 43%;
+    }
+
+    /* Adjust scroll indicator text */
+    .hide-text {
+        top: 69%;    /* noice */
     }
 
     /* Adjust background picture */
@@ -520,6 +532,14 @@ footer {
     .hero-image {
         height: 800px;
     }
+    .hero-text {
+        top: 43%;
+    }
+
+    /* Adjust scroll indicator text */
+    .hide-text {
+        top: 68%;
+    }
 
     main {
         background: url("../images/sincerely-media-hbOpyBjUBjc-unsplash.jpg") no-repeat center 150px/cover;
@@ -577,7 +597,8 @@ footer {
 
     /* Adjust scroll indicator text */
     .hide-text {
-        top: 65%;
+        top: 63%;
+        transform: translateX(-44%);
     }
 
     /* Deleted unused classes */
