@@ -526,30 +526,14 @@ footer {
         width: 900px;
     }
 
-    /* Pros and cons Container */
-    .container-pro-con {
-        display: flex;
-        flex-direction: row;
-        width: 900px;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        padding: 20px;
-        gap: 1rem;
-        position: relative;
-        margin: auto;
-    }
+    /* Deleted code */
 
-    /* hard coding the size of pros and cons to make them alway the same */
+    /* hard coding the size of pros and cons to make them alway the same - changed after talking with mentor */
     #pros {
         height: 280px;
-        width: 413px;
-        line-height: 31px;
     }
-
     #cons {
         height: 280px;
-        width: 413px;
     }
 
     /* styling favourite cat form for bigger screens */
@@ -600,51 +584,12 @@ footer {
         padding: 200px;
     }
 
-    /* Show arrow to indicate scrolling */
-    .arrow {
-        display: flex;
-        justify-content: center;
-        margin-top: -100px;
-        font-size: 400%;
-        color: orange;
-    }
-
-    .arrowtext {
-        color: orange;
-        font-size: 150%;
-        color: orange;
-        /* Add Border around headings */
-        padding: 5px;
-        border: 2px solid black;
-        border-radius: 10px;
-        background-color: rgba(59, 59, 59, 0.7);
-    }
+    /* Deleted unused classes */
 
     /* Adjust background picture */
     main {
         /* optimized for FHD monitors */
         background: url("../images/sincerely-media-hbOpyBjUBjc-unsplash.jpg") no-repeat center 300px/cover;
-    }
-
-    /* Pro and Con container */
-    .container-pro-con {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        padding: 20px;
-        gap: 1rem;
-        position: relative;
-        margin: auto;
-    }
-
-    #pros {
-        flex: 1;
-    }
-
-    #cons {
-        flex: 1;
     }
 
     /* Attributes media query */
@@ -653,6 +598,5 @@ footer {
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: masonry;
         padding: 2.5%;
-        gap: 2.5%;
     }
 }
