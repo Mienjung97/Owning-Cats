@@ -321,6 +321,7 @@ footer {
 /* background class is used by attributes.html as well */
 .background {
     background-image: none;
+    background-color: rgba(59, 59, 59, 0.3);
 }
 
 /* Styling Heading element */
