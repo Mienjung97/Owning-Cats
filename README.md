@@ -194,6 +194,18 @@ Created with [rgbacolorpicker](https://rgbacolorpicker.com/)
 
 [Back to top](<#contents>)
 
+## Browser Compatibility
+
+Owning Cats website was tested on the following browsers with no visible issues for the user: 
+- Google Chrome
+- Microsoft Edge
+- Safari
+- Mozilla Firefox 
+
+Appearance, functionality and responsiveness were consistent throughout for a range of device sizes and browsers.
+
+[Back to top](<#contents>)
+
 # Credits <a name="credits"></a>
 
 ### Honorable mentions <a name="honorable-mentions"></a>
