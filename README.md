@@ -71,8 +71,9 @@ The website is structured into three pages, the homepage on which you will recie
 
 
 ## Wireframes 
-The wireframes for Wawas Woods were produced in Balsamiq. There are frames for a full width display and a small mobile device. The final site varies slightly from the wireframes due to developments that occured during the creation process.
 
+The wireframes for "Owning Cats" were produced with [Balsamiq](https://balsamiq.com/). The following shows the basic design idea for mobile and desktop devices. The wireframes vary a bit from the actual webpage.
+ 
 [Back to top](<#contents>)
 
 ## Typography 
@@ -154,7 +155,19 @@ Created with [rgbacolorpicker](https://rgbacolorpicker.com/)
 
 # Deployment
 
+The website was deployed on GitHub Pages following these steps:
 
+1. Go to GitHub, navigate through Repository/settings/pages.
+2. Select "main branch" in the source tab and click save.
+3. The page should look like this, which includes the webpages address: <br>
+
+![deployment](readme-images/deployment.PNG)
+
+- Information on how to fork a project: [Fork the project](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo)
+
+- Information on how to clone a project: [Clone the project](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) 
+
+- Difference between clone and fork: "Forking creates your own copy of a repository in a remote location (for example, GitHub). Your own copy means that you will be able to contribute changes to your copy of the repository without affecting the original repository. Cloning makes a local copy of a repository, not your own copy." [Full explanation](https://www.educative.io/answers/what-is-the-difference-between-forking-and-cloning-in-git)
 
 # Testing
 - The Website was continiously testet for responsiveness and code validation. Therefore I was able to correct all the small mistakes like "wrong grid value" and other mistakes. 
