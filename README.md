@@ -108,14 +108,29 @@ For the webpage I have used orange, white, grey and black colors since they prov
 
 ## Navigation menu <a name="navigation-menu"></a>
 - The Navigation menu was created with the help of the Love Running project, features a burger-icon drop-down-menu for smaller screens up to 992px, after which it will transform to a horizontal list. The Navigation bar has an indicator, on which side the user currently is on and will alsway redirect the user back to the homepage, as soon as they click the "Owning Cats" text in the header.
+- Expanded Nav-bar: <br>
+![navbar-out](assets/images/Navbar-out.PNG)
+- Burger-Icon nav-bar: <br>
+![out](assets/images/navbar.PNG)
+![collapsed](assets/images/navbar-burger-collapsed.PNG)
 
 ## Owning Cats <a name="owning-cats"></a>
+- The homepage "Owning Cats" is giving the user general information about cats and a Pros and Cons list: <br>
+![homepage](assets/images/homepage.PNG)
 
 ## Attributes <a name="attributes"></a>
+- The Atrributes page is dedicated to show to the user nine different kind of cat breeds, the way they look and give a quick inside into their behaviour and traids:
+![attributes](assets/images/attributes.PNG)
 
 ## Survey <a name="survey"></a>
+-
+![survey](assets/images/survey.PNG)
 
 ## Footer <a name="footer"></a>
+- Small screens: <br>
+![footer-big](assets/images/footer_wide.PNG)
+- Big screens <br>
+![footer-small](assets/images/footer_compact.PNG)
 
 
 ## Validation <a name="validation"></a>
