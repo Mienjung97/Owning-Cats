@@ -58,9 +58,10 @@ li {
     list-style-type: none;
     padding: 5px;
 }
+
 .background-color {
     background-image: none;
-    background-color:  rgba(59, 59, 59, 0.3);
+    background-color: rgba(59, 59, 59, 0.3);
 }
 
 /* Placeholder */
@@ -176,6 +177,7 @@ main {
     top: 42%;
     width: 100%;
 }
+
 /* Deleted unused lines of code */
 
 /* Spacing for sections */
@@ -203,8 +205,9 @@ main {
     border: 2px solid black;
     border-radius: 10px;
     color: black;
-    background-color:orange
+    background-color: orange
 }
+
 .pro-con-container {
     width: 900px;
 }
@@ -239,6 +242,7 @@ main {
     color: black;
     text-align: center;
 }
+
 #cons {
     margin: 10px;
     background-color: rgba(255, 0, 0, 0.26);
@@ -422,20 +426,25 @@ footer {
         grid-template-columns: repeat(2, 1fr);
         padding: 4%;
     }
+
     #form1 h1 {
         padding-top: 4rem;
     }
+
     #form-size {
         max-width: 80%;
         margin: auto;
     }
 }
+
 /* Miedia query for small displays */
 @media screen and (max-width: 768px) {
+
     /* Responsive "pros and cons" section */
     .container-pro-con {
         flex-wrap: wrap;
     }
+
     /* turn off scroll indicator on smaller screens */
     .hide-text {
         display: none;
@@ -449,13 +458,15 @@ footer {
     .hero-image {
         height: 700px;
     }
+
     .hero-text {
         top: 43%;
     }
 
     /* Adjust scroll indicator text */
     .hide-text {
-        top: 69%;    /* noice */
+        top: 69%;
+        /* noice */
     }
 
     /* Adjust background picture */
@@ -468,6 +479,7 @@ footer {
         /* Alan from the Tutor team helped me fix the heigh difference between pros and cons */
         height: 320px;
     }
+
     #cons {
         height: 320px;
     }
@@ -485,10 +497,12 @@ footer {
     #form1 h1 {
         padding-bottom: 1rem;
     }
+
     #form-size {
         max-width: 50%;
         margin: auto;
     }
+
     #form5-1 {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -496,6 +510,7 @@ footer {
         padding-right: 10%;
         margin-bottom: 1rem;
     }
+
     /* new class for responsive pros and cons list */
     .pro-con {
         display: flex;
@@ -505,11 +520,13 @@ footer {
 
 /* Media query: large devices (992px and more) */
 @media screen and (min-width: 992px) {
+
     /* Header */
     header {
         padding: 10px 20px 5px 10px;
     }
-    header > nav {
+
+    header>nav {
         display: block;
         position: relative;
         width: fit-content;
@@ -517,9 +534,11 @@ footer {
         top: 0;
         box-shadow: none;
     }
+
     .nav-box-label {
         display: none;
     }
+
     #nav-menu {
         display: flex;
         flex-direction: row;
@@ -532,6 +551,7 @@ footer {
     .hero-image {
         height: 800px;
     }
+
     .hero-text {
         top: 43%;
     }
@@ -556,6 +576,7 @@ footer {
     #pros {
         height: 280px;
     }
+
     #cons {
         height: 280px;
     }
@@ -566,6 +587,7 @@ footer {
         padding-top: 100px;
         padding-bottom: 2rem;
     }
+
     #form5-1 {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -591,6 +613,7 @@ footer {
     .hero-image {
         height: 1200px;
     }
+
     .hero-text {
         top: 43%;
     }
@@ -616,21 +639,3 @@ footer {
         padding: 2.5%;
     }
 }
-
-/*.hide-text {
-    /* Mentor Akshat helped me with understading .parent - .child relations for styling */
-    /* color: orange;
-    font-size: 1.5rem;
-    color: orange;
-    /* Add Border around headings */
-   /* padding: 5px;
-    border: 2px solid black;
-    border-radius: 10px;
-    background-color: rgba(59, 59, 59, 0.7);
-    position: absolute;
-    top: 80%;
-    left: 50%;
-    /* Next line was shown to me by my Mentor Akshat */
-   /* transform: translateX(-50%);
-    text-align: center; */
-
