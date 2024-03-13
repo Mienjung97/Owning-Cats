@@ -180,6 +180,7 @@ The website was deployed on GitHub Pages following these steps:
 # Testing
 - The Website was continiously testet for responsiveness and code validation. Therefore I was able to correct all the small mistakes like "wrong grid value" and other mistakes. 
 - First I hard coded some of the widths and heights which resulted in problems with extra small screens (Galaxy Fold) and between 1200px and 1300px. Through guidance by my mentor, I was able to fix all the responsiveness bugs. 
+- In the beginning, I have overused "display: flex;" which lead to countless visual bugs, but it was sorted out with my mentors help.
 
 [Back to top](<#contents>)
 
