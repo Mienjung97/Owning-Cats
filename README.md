@@ -72,6 +72,8 @@ The website is structured into three pages, the homepage on which you will recie
 The wireframes for Wawas Woods were produced in Balsamiq. There are frames for a full width display and a small mobile device. The final site varies slightly from the wireframes due to developments that occured during the creation process.
 
 ### Color scheme <a name="color-scheme"></a>
+For the webpage I have used orange, white, grey and black colors. the following pictures show all individual colors I have used:
+- White: ![white](assets/images/White.PNG)
 
 [Back to top](<#contents>)
 
