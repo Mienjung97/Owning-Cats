@@ -72,7 +72,13 @@ The website is structured into three pages, the homepage on which you will recie
 
 ## Wireframes 
 
-The wireframes for "Owning Cats" were produced with [Balsamiq](https://balsamiq.com/). The following shows the basic design idea for mobile and desktop devices. The wireframes vary a bit from the actual webpage.
+The wireframes for "Owning Cats" were produced with [Balsamiq](https://balsamiq.com/). The following shows the basic design idea for mobile and desktop devices. The wireframes vary a bit from the actual webpage due to the development process.
+
+- Desktop wireframes: <br>
+![wireframe-desktop](readme-images/wireframes-desktop.PNG) 
+
+- Mobile wireframes: <br>
+![wireframe-mobile](readme-images/wireframes-mobile.PNG)
  
 [Back to top](<#contents>)
 
