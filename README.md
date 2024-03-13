@@ -152,6 +152,10 @@ Created with [rgbacolorpicker](https://rgbacolorpicker.com/)
 
 [Back to top](<#contents>)
 
+# Deployment
+
+
+
 # Testing
 - The Website was continiously testet for responsiveness and code validation. Therefore I was able to correct all the small mistakes like "wrong grid value" and other mistakes. 
 - First I hard coded some of the widths and heights which resulted in problems with extra small screens (Galaxy Fold) and between 1200px and 1300px. Through guidance by my mentor, I was able to fix all the responsiveness bugs. 
@@ -225,8 +229,29 @@ A big thank you goes out to the Tutors who have helped me along my first protfol
 [Back to top](<#contents>)
 
 ## General reference: 
-The biggest help and inspiration in my first project was my Mentor Akshat Garg who helped me a lot with understanding .parent - .child connections, how to implement them in a long css code and media queries. <br>
-For the Header (Drop down menu) i took great inspiration from the "Love Running" project, the Footer has been compleatly copied since I really liked the design. Only for bigger screens, the Icons for the social media platforms move closer together. <br>
-For creating this readme, I have used example readme files from [Ewan Colquhoun](https://github.com/EwanColquhoun) and my colleague [Marceillo](https://github.com/Marceillo) for the general overview.
+- The biggest help and inspiration in my first project was my Mentor Akshat Garg who helped me a lot with understanding .parent - .child connections, how to implement them in a long css code and media queries. 
+- For the Header (Drop down menu) i took great inspiration from the "Love Running" project, the Footer has been compleatly copied since I really liked the design. Only for bigger screens, the Icons for the social media platforms move closer together. <br>
+- For creating this readme, I have used example readme files from [Ewan Colquhoun](https://github.com/EwanColquhoun/wawaswoods/blob/master/README.md?plain=1#deployment) and my colleague [Marceillo](https://github.com/Marceillo) for the general overview.
+- I used some help from YouTube tutorials from [EdRoh](https://www.youtube.com/watch?v=i1FeOOhNnwU) and [Slaying The Dragon](https://www.youtube.com/watch?v=phWxA89Dy94).
+
+[Back to top](<#contents>)
+
+## Content
+
+- Font came from [Google Fonts](https://fonts.google.com/).
+- Icons came from [Font Awesome](https://fontawesome.com/).
+- Colors were created with [rgbacolorpicker](https://rgbacolorpicker.com/).
+- The color palette was created with [Colors](https://coolors.co/gradient-palette/ffffff-f5f5f5?number=2).
+- For creating the wireframes, I used [Balsamiq](https://balsamiq.com/wireframes/).
+- For rezizing the images, the tool [Reduceimages](https://www.reduceimages.com/) was used.
+- The responsive image was created with [Amiresponsive](https://ui.dev/amiresponsive).
+
+[Back to top](<#contents>)
+
+## Media
+
+- Most of the images used for the hero, background image and cat breeds were taken from [Unsplash](https://unsplash.com/), the actual links are included as comments in the code.
+- Two pictures were taken by me.
+- The information about the cat breeds was taken from [litter-robot-blog](https://www.litter-robot.com/blog/breeds-of-cats/)
 
 [Back to top](<#contents>)
