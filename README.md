@@ -175,9 +175,13 @@ The website was deployed on GitHub Pages following these steps:
 
 - Difference between clone and fork: "Forking creates your own copy of a repository in a remote location (for example, GitHub). Your own copy means that you will be able to contribute changes to your copy of the repository without affecting the original repository. Cloning makes a local copy of a repository, not your own copy." [Full explanation](https://www.educative.io/answers/what-is-the-difference-between-forking-and-cloning-in-git)
 
+[Back to top](<#contents>)
+
 # Testing
 - The Website was continiously testet for responsiveness and code validation. Therefore I was able to correct all the small mistakes like "wrong grid value" and other mistakes. 
 - First I hard coded some of the widths and heights which resulted in problems with extra small screens (Galaxy Fold) and between 1200px and 1300px. Through guidance by my mentor, I was able to fix all the responsiveness bugs. 
+
+[Back to top](<#contents>)
 
 ## Repository problems
 
@@ -271,6 +275,6 @@ A big thank you goes out to the Tutors who have helped me along my first protfol
 
 - Most of the images used for the hero, background image and cat breeds were taken from [Unsplash](https://unsplash.com/), the actual links are included as comments in the code.
 - Two pictures were taken by me.
-- The information about the cat breeds was taken from [litter-robot-blog](https://www.litter-robot.com/blog/breeds-of-cats/)
+- The information about the cat breeds was taken from [litter-robot-blog](https://www.litter-robot.com/blog/breeds-of-cats/).
 
 [Back to top](<#contents>)
