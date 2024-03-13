@@ -22,6 +22,7 @@ On the last day before submitting, my Gitpod workspace had a bug and I was unsab
    - [**_Target audience_**](#target-audience)
    - [**_Site Goals_**](#site-goals)
    - [**_How I will achieve my goals_**](#how-i-will-achieve-my-goals)
+   - [**_Site Structure_**](#site-structure)
    - [**_Wireframes_**](#wireframes)
    - [**_Typography_**](#typography)
    - [**_Color scheme_**](#color-scheme)
@@ -62,9 +63,11 @@ On the last day before submitting, my Gitpod workspace had a bug and I was unsab
 - The user is supposed to get the information they are looking for easy and quick
 - The humor used in the website is supposed to make the user more interested to read the content and engage with the survey
 ### How will I achieve my Goals <a name="how-i-will-achieve-my-goals"></a>
-- 
--
--
+- With nice contrast colors and background colors for each written text will make navigation easier
+- Media queries will make the website fully responsive, so any user will immediately find the content they are looking for
+- Humor and cute cat pictures are supposted to keep the user engaged
+### Site Structure <a name="site-structure"></a>
+The website is structured into three pages, the homepage on which you will recieve general information about cats, an attributes page, which shows pictures of 9 different cat breeds and their usual behaviour and a survey about current ownership, future plans and preferences as a last page. The survey is set up to sign the user up for a fictional Newsletter as well.
 ### Wireframes <a name="wireframes"></a> 
 The wireframes for Wawas Woods were produced in Balsamiq. There are frames for a full width display and a small mobile device. The final site varies slightly from the wireframes due to developments that occured during the creation process.
 
