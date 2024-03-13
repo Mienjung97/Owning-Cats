@@ -11,7 +11,6 @@
 }
 
 /* General sytles */
-
 body {
     /* Push footer down to bottom of page */
     display: flex;
@@ -33,7 +32,7 @@ body {
     position: absolute;
     top: 80%;
     left: 50%;
-    /* Next line was shown to me by my Mentor Akshat */
+    /* Next line was shown to me by my Mentor Akshat to position scroll indicator text */
     transform: translateX(-50%);
     text-align: center;
 }
@@ -178,8 +177,6 @@ main {
     width: 100%;
 }
 
-/* Deleted unused lines of code */
-
 /* Spacing for sections */
 .spacing {
     margin: 3rem;
@@ -198,8 +195,6 @@ main {
     background-color: rgba(59, 59, 59, 0.9);
 }
 
-/* Deleted unused code */
-
 .container>p {
     padding: 5px;
     border: 2px solid black;
@@ -212,8 +207,7 @@ main {
     width: 900px;
 }
 
-
-/* Edit h2 heading of pros and cons list - border is responsive and not fixed, like I would want it to be */
+/* Styles for h2 heading above pros and cons list */
 #pro-h2 {
     display: flex;
     text-align: center;
@@ -250,7 +244,6 @@ main {
     text-align: center;
 }
 
-/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 /* Attributes.html code */
 .attributes-head {
     text-align: center;
@@ -283,8 +276,6 @@ main {
     background: white;
 }
 
-/* ------------------------------------------------------------------------------------------------------------------------------------------ */
-
 /* Footer*/
 footer {
     background-color: black;
@@ -304,11 +295,9 @@ footer {
     padding: 5%;
     color: #ffffff;
 }
-
 /* End of footer from Love Running */
 
 /* Styles for the Survey */
-/* General styles */
 /* background class is used by attributes.html as well */
 .background {
     background-image: none;
@@ -377,7 +366,6 @@ footer {
 }
 
 /* First use of grid */
-/* Under 413px screen width the radio buttons change size for dorm 5-1 */
 #form5-1 div {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -415,7 +403,6 @@ footer {
     /* Wrap idea for responsiveness from mentor */
     flex-wrap: wrap;
 }
-
 
 /* Media query: landscape phones (576px and more) */
 @media screen and (min-width: 576px) {
@@ -489,7 +476,7 @@ footer {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         padding: 3%;
-        /* column-gap makes sure that no text is swallowed by footer */
+        /* "column-gap" makes sure that no text is swallowed by footer */
         column-gap: 2.5%;
     }
 
@@ -570,9 +557,7 @@ footer {
         width: 900px;
     }
 
-    /* Deleted code */
-
-    /* hard coding the size of pros and cons to make them alway the same - changed after talking with mentor */
+    /* hard coding the size of pros and cons to make them alway the same */
     #pros {
         height: 280px;
     }
@@ -605,8 +590,6 @@ footer {
 }
 
 /* Media query: desktop (1200px and more) */
-
-/* Between 1200px and 1250px the hero doesn't fill out the full screen, "pros and cons" are not evenly spaced between 1200px and 1300px */
 @media screen and (min-width: 1200px) {
 
     /* Hero image */
@@ -623,8 +606,6 @@ footer {
         top: 63%;
         transform: translateX(-44%);
     }
-
-    /* Deleted unused classes */
 
     /* Adjust background picture */
     main {
